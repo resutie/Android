@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фрагменты Студент</string>
+    <string name="title_first">Первый фрагмент</string>
+    <string name="title_second">Второй фрагмент</string>
+    <string name="title_third">Третий фрагмент</string>
+    <string name="button_to_second">Перейти ко второму</string>
+    <string name="button_to_third">Перейти к третьему</string>
+    <string name="button_back_to_first">Вернуться к первому</string>
+    <string name="student_name">Фомина Полина Алексеевна</string>
+    <string name="student_group">УНБО-05-24</string>
+    <string name="student_course">Курс: 2</string>
+</resources>

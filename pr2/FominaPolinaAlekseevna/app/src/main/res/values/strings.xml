@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fomina Polina Alekseevna</string>
+    <string name="student_data">Данные студента:</string>
+    <string name="greeting">Здравствуй, студент!</string>
+    <string name="hint_fio">ФИО</string>
+    <string name="hint_group">Номер группы</string>
+    <string name="hint_age">Возраст</string>
+    <string name="hint_subject">Введите предмет</string>
+    <string name="hint_day">День</string>
+    <string name="hint_time">Время</string>
+    <string name="hint_comment">Комментарий</string>
+    <string name="button_confirm">Подтвердить</string>
+    <string name="button_ok">OK</string>
+    <string name="visit_info">Информация о посещении:</string>
+    <string name="toast_success">Время занятия успешно передано</string>
+    <string name="fio">ФИО:</string>
+    <string name="group">Группа:</string>
+    <string name="age">Возраст:</string>
+    <string name="visit_info_format">Предмет: %1$s\nДень: %2$s\nВремя: %3$s\nКомментарий: %4$s</string>
+</resources>
