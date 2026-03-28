@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Fomina Polina Alekseevna</string>
+
+    <string name="drawer_open">Открыть боковое меню</string>
+    <string name="drawer_close">Закрыть боковое меню</string>
+
+    <string name="title_categories">Мои игры по категориям</string>
+    <string name="title_scroll">Лента правил (ScrollView)</string>
+    <string name="title_spinner">Подобрать формат партии</string>
+    <string name="title_bottom_activity">Открыть экран с BottomBar</string>
+
+    <string name="categories_hint">Выберите категорию из вашей коллекции:</string>
+    <string name="games_of_category">Игры категории: %1$s</string>
+    <string name="hint_add_game">Добавьте новую игру</string>
+    <string name="button_add">Добавить</string>
+    <string name="button_remove">Удалить</string>
+    <string name="edit_enabled_all_hint">В этой категории можно добавлять и удалять игры.</string>
+
+    <string name="spinner_title">Выберите формат партии:</string>
+    <string name="selected_game_type">Выбран тип: %1$s</string>
+
+    <string name="scroll_title">Короткие правила и советы по настольным играм</string>
+    <string name="scroll_line_1">1. Перед началом партии проговорите цель игры.</string>
+    <string name="scroll_line_2">2. Разложите компоненты так, чтобы всем было видно поле.</string>
+    <string name="scroll_line_3">3. Проверьте, что все игроки получили стартовые ресурсы.</string>
+    <string name="scroll_line_4">4. На первом ходу делайте простые действия для разгона.</string>
+    <string name="scroll_line_5">5. Следите за балансом: очки, ресурсы и позиция на поле.</string>
+    <string name="scroll_line_6">6. Не забывайте читать текст карт вслух при спорных моментах.</string>
+    <string name="scroll_line_7">7. В кооперативных играх планируйте общий ход заранее.</string>
+    <string name="scroll_line_8">8. В соревновательных играх считайте риски на 1-2 хода вперед.</string>
+    <string name="scroll_line_9">9. Делайте короткие паузы между раундами при длинных партиях.</string>
+    <string name="scroll_line_10">10. После игры обсудите, какие решения были самыми удачными.</string>
+    <string name="scroll_line_11">11. Всегда определяйте, кто ходит первым, до раздачи карт.</string>
+    <string name="scroll_line_12">12. Отдельно сложите сброс и колоду добора.</string>
+    <string name="scroll_line_13">13. Если в правилах есть спор, выбирайте единый временный вариант.</string>
+    <string name="scroll_line_14">14. В играх с таймингом используйте таймер на телефон.</string>
+    <string name="scroll_line_15">15. В играх на переговоры заранее обсудите границы договоренностей.</string>
+    <string name="scroll_line_16">16. Ведите счет очков в одном месте, чтобы не терять промежуточные данные.</string>
+    <string name="scroll_line_17">17. При обучающей партии разрешайте отмену хода новичкам.</string>
+    <string name="scroll_line_18">18. Если партия затянулась, фиксируйте лимит по раундам.</string>
+    <string name="scroll_line_19">19. Перед финальным подсчетом перепроверьте условия победы.</string>
+    <string name="scroll_line_20">20. Храните компоненты игры в отдельных пакетах по типам.</string>
+    <string name="scroll_line_21">21. После каждой партии складывайте компоненты по секциям коробки.</string>
+    <string name="scroll_line_22">22. Отмечайте, какие доп. правила использовали в этой партии.</string>
+    <string name="scroll_line_23">23. Если игра командная, заранее распределите роли в команде.</string>
+    <string name="scroll_line_24">24. Для новых игроков держите под рукой краткую памятку хода.</string>
+    <string name="scroll_line_25">25. Уточните условие окончания партии до первого хода.</string>
+    <string name="scroll_line_26">26. При споре по карте сверяйтесь с официальным FAQ игры.</string>
+    <string name="scroll_line_27">27. Не забывайте о штрафах и ограничениях каждого раунда.</string>
+    <string name="scroll_line_28">28. Подготовьте отдельное место для сброса жетонов и карт.</string>
+    <string name="scroll_line_29">29. По итогам партии фиксируйте лучший ход для анализа.</string>
+    <string name="scroll_line_30">30. Держите коробку и карты вдали от напитков во время игры.</string>
+    <string name="hint_scroll_note">Ваши заметки по правилам...</string>
+
+    <string name="bottom_collection">Коллекция</string>
+    <string name="bottom_top">Топ</string>
+    <string name="bottom_about">О клубе</string>
+
+    <string name="item_image_desc">Иконка игры</string>
+    <string name="top_games_title">Топ для начала</string>
+    <string name="top_games_content">1) Catan\n2) Ticket to Ride\n3) Каркассон\n4) Пэчворк\n5) Azul</string>
+    <string name="about_title">О проекте</string>
+    <string name="about_content">Учебное приложение по теме настольных игр. Здесь собраны примеры ListView, ScrollView, Spinner, RecyclerView и навигации через Drawer + BottomBar.</string>
+
+    <string-array name="board_game_categories">
+        <item>Стратегии</item>
+        <item>Кооперативные</item>
+        <item>Семейные</item>
+        <item>Патигеймы</item>
+    </string-array>
+
+    <string-array name="game_types">
+        <item>Дуэль</item>
+        <item>Кооператив</item>
+        <item>Евро</item>
+        <item>Пати</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_categories"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/title_categories" />
+
+    <item
+        android:id="@+id/menu_scroll"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/title_scroll" />
+
+    <item
+        android:id="@+id/menu_spinner"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="@string/title_spinner" />
+
+    <item
+        android:id="@+id/menu_bottom_activity"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/title_bottom_activity" />
+</menu>
