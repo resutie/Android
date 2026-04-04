@@ -46,7 +46,6 @@ class ThirdActivity : AppCompatActivity() {
             }
         }
 
-        // В этом варианте редактирование доступно в каждой категории.
         hintText.text = getString(R.string.edit_enabled_all_hint)
         addButton.setOnClickListener {
             val newGame = gameInput.text.toString().trim()

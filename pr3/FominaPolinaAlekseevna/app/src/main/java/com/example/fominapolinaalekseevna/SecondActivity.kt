@@ -14,7 +14,6 @@ class SecondActivity : AppCompatActivity() {
 
         val toolbar = findViewById<Toolbar>(R.id.secondToolbar)
         setSupportActionBar(toolbar)
-        // Сдвигаем toolbar ниже статус-бара, чтобы не было наплыва.
         ViewCompat.setOnApplyWindowInsetsListener(toolbar) { view, insets ->
             val topInset = insets.getInsets(WindowInsetsCompat.Type.statusBars()).top
             view.setPadding(
@@ -29,15 +28,13 @@ class SecondActivity : AppCompatActivity() {
         val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottomNavigation)
 
         if (savedInstanceState == null) {
-            // Стартовый фрагмент для нижнего меню.
             supportActionBar?.title = getString(R.string.bottom_collection)
             supportFragmentManager.beginTransaction()
                 .replace(R.id.bottomFragmentContainer, RecyclerGamesFragment())
                 .commit()
         }
 
-        bottomNavigation.setOnItemSelectedListener { item ->
-            // ActionBar и контент синхронно меняются по нажатию.
+        bottomNavigation.setOnItemSelectedListener { item -> // ActionBar и контент синхронно меняются по нажатию.
             when (item.itemId) {
                 R.id.bottom_collection -> {
                     supportActionBar?.title = getString(R.string.bottom_collection)

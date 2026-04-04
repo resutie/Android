@@ -24,7 +24,6 @@ class GameTypeActivity : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
 
-        // Короткий вывод выбранного формата партии.
         spinner.setOnItemSelectedListener(object : android.widget.AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 parent: android.widget.AdapterView<*>?,

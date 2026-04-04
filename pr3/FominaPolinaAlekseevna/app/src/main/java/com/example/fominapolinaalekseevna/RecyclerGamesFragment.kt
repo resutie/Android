@@ -22,7 +22,6 @@ class RecyclerGamesFragment : Fragment() {
         val recyclerView = view.findViewById<RecyclerView>(R.id.gamesRecyclerView)
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
-        // В каждом элементе есть картинка + текст, как требует методичка.
         val items = listOf(
             GameItem(
                 "Каркассон",

@@ -37,7 +37,6 @@ class GameRecyclerAdapter(
     }
 
     private fun loadImageFromUrl(url: String, imageView: ImageView) {
-        // Простая загрузка картинки по ссылке без доп. библиотек.
         imageView.tag = url
         imageLoader.execute {
             runCatching {

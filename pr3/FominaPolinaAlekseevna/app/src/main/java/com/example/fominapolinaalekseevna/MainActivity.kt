@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         val toolbar = findViewById<Toolbar>(R.id.mainToolbar)
         setSupportActionBar(toolbar)
-        // Сдвиг toolbar ниже статус-бара, чтобы бургер был удобно нажимать.
         ViewCompat.setOnApplyWindowInsetsListener(toolbar) { view, insets ->
             val topInset = insets.getInsets(WindowInsetsCompat.Type.statusBars()).top
             view.setPadding(
@@ -36,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = findViewById(R.id.drawerLayout)
         val navigationView = findViewById<NavigationView>(R.id.navigationView)
 
-        // Кнопка "гамбургер" для открытия/закрытия Drawer.
         drawerToggle = ActionBarDrawerToggle(
             this,
             drawerLayout,
@@ -55,8 +53,7 @@ class MainActivity : AppCompatActivity() {
             navigationView.setCheckedItem(R.id.menu_categories)
         }
 
-        navigationView.setNavigationItemSelectedListener { item ->
-            // Меняем фрагменты по пунктам бокового меню.
+        navigationView.setNavigationItemSelectedListener { item -> // Меняем фрагменты по пунктам бокового меню.
             when (item.itemId) {
                 R.id.menu_categories -> {
                     supportActionBar?.title = getString(R.string.title_categories)
