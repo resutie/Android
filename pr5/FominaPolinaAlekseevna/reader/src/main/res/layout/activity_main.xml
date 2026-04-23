@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_read_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название файла для чтения" />
+
+    <Button
+        android:id="@+id/btn_read_ext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Прочитать файл" />
+
+    <Button
+        android:id="@+id/btn_pick_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Выбрать файл вручную" />
+
+    <TextView
+        android:id="@+id/tv_read_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="Содержимое файла появится здесь" />
+
+</LinearLayout>

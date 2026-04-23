@@ -1,0 +1,35 @@
+package com.example.fominapolinaalekseevna
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        if (savedInstanceState == null) {
+            openFragment(FileFragment())
+        }
+
+        findViewById<BottomNavigationView>(R.id.bottom_nav).setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.nav_files -> openFragment(FileFragment())
+                R.id.nav_external -> openFragment(ExternalStorageFragment())
+                R.id.nav_prefs -> openFragment(SharedPrefsFragment())
+                R.id.nav_db -> openFragment(DatabaseFragment())
+                else -> false
+            }
+        }
+    }
+
+    private fun openFragment(fragment: Fragment): Boolean {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .commit()
+        return true
+    }
+}

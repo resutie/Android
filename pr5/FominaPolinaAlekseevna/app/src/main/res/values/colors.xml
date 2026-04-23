@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_background">#F5F5F5</color>
+    <color name="light_button">#2196F3</color>
+    <color name="light_text">#212121</color>
+    <color name="light_text_hint">#9E9E9E</color>
+    <color name="light_button_text">#FFFFFF</color>
+
+    <color name="dark_background">#121212</color>
+    <color name="dark_button">#0D47A1</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_text_hint">#808080</color>
+    <color name="dark_button_text">#FFFFFF</color>
+</resources>

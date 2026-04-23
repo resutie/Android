@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id btn_pick_file
+id btn_read_ext
+id et_read_filename
+id tv_read_output
+layout activity_main
+string app_name
