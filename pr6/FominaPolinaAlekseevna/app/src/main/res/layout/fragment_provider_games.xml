@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/provider_title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etProviderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/json_hint_title" />
+
+        <EditText
+            android:id="@+id/etProviderCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/json_hint_category" />
+
+        <EditText
+            android:id="@+id/etProviderPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/json_hint_players"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etProviderRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/json_hint_rating"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnProviderAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/provider_add" />
+
+        <Button
+            android:id="@+id/btnProviderRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/provider_refresh" />
+
+        <Button
+            android:id="@+id/btnOpenReader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/provider_open_reader" />
+
+        <TextView
+            android:id="@+id/tvProviderOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#F5F5F5"
+            android:padding="8dp"
+            android:text="@string/provider_empty" />
+    </LinearLayout>
+</ScrollView>

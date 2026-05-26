@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id btnLoadProvider
+id tvReaderOutput
+layout activity_main
+string app_name
+string reader_description
+string reader_empty
+string reader_error
+string reader_item
+string reader_load
+string reader_loading

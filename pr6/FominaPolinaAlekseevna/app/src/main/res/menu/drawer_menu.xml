@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_categories"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/title_categories" />
+
+    <item
+        android:id="@+id/menu_scroll"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/title_scroll" />
+
+    <item
+        android:id="@+id/menu_spinner"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="@string/title_spinner" />
+
+    <item
+        android:id="@+id/menu_bottom_activity"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/title_bottom_activity" />
+
+    <item
+        android:id="@+id/menu_webview"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/title_webview" />
+
+    <item
+        android:id="@+id/menu_music"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/title_music" />
+
+    <item
+        android:id="@+id/menu_animations"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/title_animations" />
+
+    <item
+        android:id="@+id/menu_json"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/title_json" />
+
+    <item
+        android:id="@+id/menu_provider"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/title_provider" />
+</menu>

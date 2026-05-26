@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Games Reader</string>
+    <string name="reader_description">Чтение списка игр из Content Provider основного приложения.</string>
+    <string name="reader_empty">Список пуст.\n\n1) Установите основное приложение (модуль app).\n2) Откройте его хотя бы один раз.\n3) В меню «Content Provider» нажмите «Обновить список».\n4) Снова откройте Games Reader.</string>
+    <string name="reader_error">Ошибка доступа к провайдеру</string>
+    <string name="reader_item">%1$d) %2$s\nКатегория: %3$s | Игроков: %4$d | Рейтинг: %5$.1f</string>
+    <string name="reader_load">Загрузить из провайдера</string>
+    <string name="reader_loading">Загрузка…</string>
+</resources>
